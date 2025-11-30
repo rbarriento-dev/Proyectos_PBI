@@ -4,12 +4,12 @@ Una landing page profesional y minimalista para acceder a tableros de Power BI, 
 
 ## Características
 
--  Diseño limpio y minimalista con paleta de colores pastel
--  Color de acento amarillo/mostaza cálido (estilo Power BI)
+-  Diseño limpio y minimalista 
+-  Color amarillo/mostaza cálido (estilo Power BI)
 -  Soporte completo para modo claro y oscuro
 -  Diseño responsive (1 columna móvil, 2 tablet, 3 desktop)
 -  Basado en Next.js 16 con performance optimizado
--  Tipografía moderna con Inter
+-  Tipografía moderna Inter
 -  Redireccionamiento automático a tableros. En construccón (`/dashboard/{id}`) 
 
 
@@ -39,15 +39,6 @@ powerbi-dashboard/
 - **shadcn/ui** - Componentes UI de alta calidad
 - **TypeScript** - Type safety
 - **Inter Font** - Tipografía moderna y limpia
-
-## Variables de Entorno
-
-\`\`\`bash
-# .env.local (opcional)
-# No se requieren variables de entorno por defecto
-# Agrega las tuyas según necesites para integrar Power BI
-NEXT_PUBLIC_POWERBI_EMBED_URL=tu-url-aqui
-\`\`\`
 
 
 
