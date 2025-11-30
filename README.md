@@ -31,15 +31,6 @@ powerbi-dashboard/
 └── package.json
 \`\`\`
 
-## Scripts Disponibles
-
-\`\`\`bash
-npm run dev      # Inicia el servidor de desarrollo (http://localhost:3000)
-npm run build    # Construye la aplicación para producción
-npm start        # Inicia el servidor en modo producción
-npm run lint     # Ejecuta ESLint
-\`\`\`
-
 ## Tecnologías Utilizadas
 
 - **Next.js 16** - Framework React con SSR
@@ -48,22 +39,6 @@ npm run lint     # Ejecuta ESLint
 - **shadcn/ui** - Componentes UI de alta calidad
 - **TypeScript** - Type safety
 - **Inter Font** - Tipografía moderna y limpia
-
-## Paleta de Colores
-
-### Light Mode
-- Background: Blanco suave
-- Primary (Acento): Amarillo/mostaza pastel - `oklch(0.75 0.15 65)`
-- Secondary: Azul muy claro
-- Text: Gris oscuro
-
-### Dark Mode
-- Background: Gris muy oscuro
-- Primary (Acento): Amarillo/mostaza más brillante - `oklch(0.8 0.18 65)`
-- Secondary: Gris oscuro
-- Text: Blanco
-
-
 
 ## Variables de Entorno
 
@@ -74,28 +49,5 @@ npm run lint     # Ejecuta ESLint
 NEXT_PUBLIC_POWERBI_EMBED_URL=tu-url-aqui
 \`\`\`
 
-## Despliegue
-
-### Vercel (Recomendado)
-
-\`\`\`bash
-# Conecta tu repositorio a Vercel/Netlify/CloudPages
-# Plus con Vercel, automáticamente detectará Next.js y configurará todo
-
-npm install -g vercel
-vercel
-\`\`\`
-
-## Soporte Dark Mode
-
-El dark mode se detecta automáticamente según la preferencia del sistema operativo. Los usuarios pueden cambiar manualmente usando el botón toggle en el header (ícono de sol/luna).
-
-
-## Support & Documentación
-
-- [Next.js Docs](https://nextjs.org/docs)
-- [Tailwind CSS](https://tailwindcss.com)
-- [shadcn/ui](https://ui.shadcn.com)
-- [React Docs](https://react.dev)
 
 
